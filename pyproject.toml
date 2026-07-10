@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hrm-framework"
+version = "0.1.0"
+description = "Sandbox for Helical Recursive Manifold (HRM) programming"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "HRM Sandbox Contributors" }
+]
+license = { file = "LICENSE" }
+dependencies = [
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

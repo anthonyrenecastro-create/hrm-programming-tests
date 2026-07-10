@@ -1,0 +1,16 @@
+{
+  "steps": 500,
+  "seed": 7,
+  "energy_final": 1.8129646455628177,
+  "chaos_final": 1.8129646455628177,
+  "flip_attempts": 500,
+  "flip_successes": 500,
+  "flip_rejected_link": 0,
+  "flip_rejected_duplicate": 0,
+  "flip_blocked_chaos": 0,
+  "artifacts": {
+    "energy_plot": "results/free_energy_history.png",
+    "final_state_plot": "results/final_manifold_state.png",
+    "boundary_plot": "results/flagged_boundary_vertices.png"
+  }
+}
